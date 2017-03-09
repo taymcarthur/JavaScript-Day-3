@@ -8,6 +8,7 @@ body {
 	background-color:rgb(221, 221, 221);
 	margin-left:200px;
 	margin-right:200px;
+	width:1000px;
 
 
 }
@@ -15,6 +16,7 @@ body {
 .bannerimage {
 	height:100px;
 	background-color:black;
+    background-image:url("images/banner.jpg")
 }
 
 #container {
