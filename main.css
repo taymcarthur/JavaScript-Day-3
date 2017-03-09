@@ -1,0 +1,47 @@
+html {
+box-sizing:border-box;
+}
+*, *:before, *:after {
+box-sizing:inherit;
+}
+body {
+	background-color:rgb(221, 221, 221);
+	margin-left:200px;
+	margin-right:200px;
+
+
+}
+
+.bannerimage {
+	height:100px;
+	background-color:black;
+}
+
+#container {
+	margin-left:70px;
+	margin-right:70px;
+	font-family:arial;
+	background-color:white;
+	width:auto;
+	border:5px;
+	border-color:black;
+	
+
+	
+}
+
+h3 {
+	margin-top:80px;
+	color:grey;
+}
+
+h1, h4 {
+	color:grey;
+
+}
+
+.question {
+	margin:auto;
+	width:auto;
+
+}

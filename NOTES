@@ -1,0 +1,107 @@
+var arr = [1,2,3,4,5,6,7,8,9]
+
+//foreach
+arr.forEach(function(value) {
+	console.log(value)
+})
+
+function foo(bar) {
+	bar()
+}
+//FILTER
+(returns a new array)
+	//FILTER EXPECTS A RETURN VALUE, Either TRUE or FALSE
+	//if you return true, whatever value it's on, it'll keep. If you return false, whatever value you're on, it will disregard.
+	//
+var newArr = arr.filter(function(value){
+	var isOdd = value % 2 == 1
+	return isOdd 
+})
+
+//MAP
+//MAPS JOB is to create a new array. To connect ONE value to ANOTHER value in a new array.
+
+var newArr = arr.map(function(value){
+	//Le'ts say we want to add one to each array
+	return value + 1
+
+	//to return an array of strings:
+
+	return value.toString()
+
+})
+
+//REDUCE
+//to take a list and reduce all the way down to a single value
+var arr = [
+{
+	name:"purse",
+	price:"25.25",
+	manufacturer:"coach",
+}
+]
+}
+var sum = arr.reduce(function(a, b){
+	return a + b 
+	//or 
+	return {
+		sum: a + b 
+	}
+
+
+
+//---------------------------------------
+//1.Find largest number
+//---------------------------------------
+var largest = numbers.reduce(function(a,b){
+	return a > b ? a : b 
+
+//---------------------------------------
+//1.Find longest string
+//---------------------------------------
+var longest = strings.reduce(function(a,b){
+	return a.length > b.length ? a : b 
+})
+//---------------------------------------
+//1.Find even numbers
+//---------------------------------------
+var evens = numbers.filter(function(value){
+	return value % 2 == 0
+})
+//---------------------------------------
+//1.Find odd numbers
+//---------------------------------------
+var odds = numbers.filter(function(value){
+	return value % 2 == 1
+})
+//---------------------------------------
+//1.Find words that contain 'is' //HELP//**********************
+//---------------------------------------
+var words = strings.filter(function(value){
+	return value.indexOf('is') !== -1)
+//---------------------------------------
+//1.Join both strings together
+//---------------------------------------
+var newArr = numbers.concat(strings) //CONCAT CONJOINS
+//---------------------------------------
+//1.Use the instructors ARRAY and FIND all that teach javascript, then sort alphabetically 
+//---------------------------------------
+var jsteachers = instructors.filter(function(value){
+	return value.teaches === 'javascript' //you will get this data from an array.
+})
+
+.sort(function(a,b){ //HELP ****************************
+	return 1,0,-1
+}).sort(function(a.firstname ,b.firstname){
+	if (a > b){
+		return 1
+	}else if (a.firstname == b.firstname)
+})
+
+//DOM MANIPULATION//MEANS WE ARE INTERACTING WITH HTML
+
+
+var sum = items.reduce(function(a,b){
+	return a + b.price
+}, 0)
+var answer1 = document
